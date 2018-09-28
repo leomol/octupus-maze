@@ -1,7 +1,7 @@
 # Octupus maze
 Controller for a behavioral task dependent on video tracking. Track subject with a webcam, open/close gates and trigger rewards/tones to guide behavior while logging and syncing with an external data acquisition system (e.g. electrophysiology) in a choice task.
 
-![Maze diagram](doc/maze-diagram "Octupus maze diagram")
+![Maze diagram](doc/maze-diagram.jpg "Octupus maze diagram")
 
 ## Two-choice task
 Refer to the maze diagram. Subject starts at the N or S arms of the maze and takes a reward. According to a contingency table, chooses to or is forced to take a left or a right turn, for a reward. Then either starts a new trial at the starting point or chooses to go to the opposite side of the maze.
