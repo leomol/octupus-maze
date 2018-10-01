@@ -39,10 +39,10 @@ The control programs were written in MATLAB, using an object oriented approach t
 Timing of behavioral events is produced using timers or classes that run timers.
 Operations in actuators such as servomotors (doors) or pinch valves (feeders) are done using an Arduino micro-controller, which runs a firmata like firmware blind to the behavioral task.
 Behavioral states are created and updated in the main class of the task and some classes are used to aid code development:
-	Bridge - Interfaces with the Arduino to read/write hardware IO states.
-	Camera/Tracker/VirtualTracker - Interfaces with the Camera to read images or the position of the subject in the maze and trigger events associated to virtual zones.
-	UI/Image/Line - Display images and lines and reads mouse and keyboard states.
-	Delay - Handle timing in feeders.
+	* Bridge - Interfaces with the Arduino to read/write hardware IO states.
+	* Camera/Tracker/VirtualTracker - Interfaces with the Camera to read images or the position of the subject in the maze and trigger events associated to virtual zones.
+	* UI/Image/Line - Display images and lines and reads mouse and keyboard states.
+	* Delay - Handle timing in feeders.
 
 As with every object oriented program, the starting point is the constructor of the class, which is has the same name as the file.
 Most of the code is documented and you can read it by looking within the code or by typing `help <class-name>` or `help <class-name>.<method-name>` in the MATLAB prompt.
