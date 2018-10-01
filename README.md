@@ -44,7 +44,7 @@ Behavioral states are created and updated in the main class of the task and some
 * UI/Image/Line - Display images and lines and reads mouse and keyboard states.
 * Delay - Handle timing in feeders.
 
-As with every object oriented program, the starting point is the constructor of the class, which is has the same name as the file.
+As with every object oriented program, the starting point is the constructor of the class, which has the same name as the file.
 Most of the code is documented and you can read it by looking within the code or by typing `help <class-name>` or `help <class-name>.<method-name>` in the MATLAB prompt.
 
 ## Version History
